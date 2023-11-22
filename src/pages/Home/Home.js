@@ -1,8 +1,12 @@
+import Banner from "../../components/Banner/Banner";
+
 function Home() {
     return (
-        <div>
-            <p>HOME</p>
-        </div>
+        <main>
+            <Banner title="Chez vous, partout et ailleurs" src="/assets/Banner1.png"  alt="Image d'un paysage" />
+        <p>home</p>
+        </main>
+        
     )
 }
 

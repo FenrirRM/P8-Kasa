@@ -1,8 +1,11 @@
+import Banner from "../../components/Banner/Banner";
+
 function About() {
     return (
-        <div>
-            <p>A PROPOS</p>
-        </div>
+        <main>
+            <Banner title="" src="/assets/Banner2.png"  alt="Image de montagnes" />
+            <o>About</o>
+        </main>
     )
 }
 
