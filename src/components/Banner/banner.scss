@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     h2 {
         color: white;
         font-size: 48px;
@@ -12,7 +12,7 @@
         width: 80%;
         text-align: center;
         
-        @media screen and (max-width: 767px){
+        @media screen and (max-width: 768px){
             font-size: 24px;
             left: 35px;
             text-align: start;
@@ -28,7 +28,8 @@
         width: 100%;
         filter: brightness(0.7);
 
-        @media screen and (max-width: 767px){
+        @media screen and (max-width: 768px){
+            border-radius: 10px;
             height: 111px;   
         }
     }
