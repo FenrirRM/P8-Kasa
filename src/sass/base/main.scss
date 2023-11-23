@@ -1,22 +1,27 @@
 * {
-    font-family: "Montserrat", sans-serif;
-    }
+  font-family: "Montserrat", sans-serif;
+}
 
-header,article {
-    max-width: 1440px;
-    padding: 0px 100px;
-        
-    }
+body {
+  max-width: 1440px;
+  justify-content: center;
+  margin: auto;
+}
+header,
+article {
+  max-width: 1440px;
+  padding: 0px 100px;
+}
 
 main {
-    max-width: 1440px;
-    padding: 50px 100px;
+  max-width: 1440px;
+  padding: 50px 100px;
 
-    @media screen and (max-width: 1024px) {
-        padding: 27px 25px;
-    }
+  @media screen and (max-width: 1024px) {
+    padding: 27px 25px;
+  }
 
-    @media screen and (max-width: 768px){
-        padding: 27px 20px;  
-    }
+  @media screen and (max-width: 768px) {
+    padding: 27px 20px;
+  }
 }

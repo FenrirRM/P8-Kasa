@@ -1,0 +1,14 @@
+.housing{
+
+    &_collapse{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        gap: 76px;
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+}
