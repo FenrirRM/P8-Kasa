@@ -12,7 +12,7 @@ main {
     max-width: 1440px;
     padding: 50px 100px;
 
-    @media (max-width: 1025px) {
+    @media screen and (max-width: 1024px) {
         padding: 27px 25px;
     }
 
