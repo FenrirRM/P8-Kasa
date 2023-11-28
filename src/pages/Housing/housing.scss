@@ -1,14 +1,110 @@
-.housing{
+.housing {
+  padding: 30px 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
-    &_collapse{
-        margin-top: 40px;
-        display: flex;
-        flex-direction: row;
-        gap: 76px;
+  @media screen and (max-width: 768px){
+    flex-direction: column;
+    padding-top: 15px;
+    gap: 15px;
+  }
+
+  &_info {
+    &_title {
+      font-size: 36px;
+      font-weight: 500;
+      color: #ff6060;
+      margin-bottom: 5px;
+
+      @media screen and (max-width: 768px){
+        font-size: 18px;
+      }
+    }
+
+    &_location {
+      font-size: 18px;
+      font-weight: 500;
+      color: #ff6060;
+      padding-bottom: 15px;
+
+      @media screen and (max-width: 768px){
+        font-size: 14px;
+      }
+    }
+
+    ul {
+      display: flex;
+      gap: 10px;
+    }
+  }
+
+  &_host-rating {
+    @media screen and (max-width: 768px){
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+  }
+    &_host {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 10px;
+
+      p {
+        font-size: 18px;
+        font-weight: 500;
+        color: #ff6060;
+        width: min-content;
+        text-align: right;
+
+        @media screen and (max-width: 768px){
+            font-size: 12px;
+        }
+      }
+
+      img {
+        height: 64px;
+        border-radius: 100%;
 
         @media screen and (max-width: 768px) {
-            flex-direction: column;
-            gap: 20px;
+            height: 32px;
         }
+      }
     }
+  }
+
+  &_collapse {
+    display: flex;
+    flex-direction: row;
+    gap: 76px;
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+}
+
+.tags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff6060;
+  color: #ffffff;
+  border-radius: 10px;
+  height: 24px;
+  min-width: 115px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 15px;
+  
+
+  @media screen and (max-width: 768px){
+    font-size: 10px;
+    height: 18px;
+    min-width: 84px;
+  }
 }
