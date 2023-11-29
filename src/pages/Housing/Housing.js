@@ -33,8 +33,6 @@ function Housing() {
     </li>
   ));
 
-  
-
   return (
     <main>
       <Slideshow pictures={housing.pictures} />
@@ -47,7 +45,7 @@ function Housing() {
         <div className="housing_host-rating">
           <div className="housing_host-rating_host">
             <p>{name}</p>
-            <img src={picture} alt="" />
+            <img src={picture} alt="propiétaire" />
           </div>
           <Rating rating={rating} />
         </div>
@@ -55,7 +53,7 @@ function Housing() {
 
       <div className="housing_collapse">
         <Collapse title="Description" content={description} />
-        <Collapse title="Équipements" content={equipmentsList} />
+        <Collapse title="Équipements" content={<ul>{equipmentsList}</ul>} />
       </div>
     </main>
   );

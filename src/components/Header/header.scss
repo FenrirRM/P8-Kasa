@@ -5,21 +5,25 @@
   align-items: center;
   justify-content: space-between;
 
-  @media screen and (max-width: 768px){
-    padding: 20px 20px 0;      
+  @media screen and (max-width: 1024px) {
+    padding: 20px 25px 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 20px 20px 0;
   }
 
   img {
-    @media screen and (max-width: 768px){
-        height: 47px;   
+    @media screen and (max-width: 768px) {
+      height: 47px;
     }
   }
 
   nav {
     display: flex;
     gap: 57px;
-    @media screen and (max-width: 768px){
-        gap: 25px;
+    @media screen and (max-width: 768px) {
+      gap: 25px;
     }
   }
 
@@ -28,8 +32,8 @@
     color: #ff6060;
     font-size: 24px;
     font-weight: 500;
-    @media screen and (max-width: 768px){
-        font-size: 12px;
+    @media screen and (max-width: 768px) {
+      font-size: 12px;
     }
   }
 

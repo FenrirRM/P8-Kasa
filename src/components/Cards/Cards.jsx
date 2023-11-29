@@ -10,7 +10,6 @@ function Cards() {
           <div className="card_title">
             <h2 className="card_title_text">{title}</h2>
           </div>
-          
         </Link>
       ))}
     </div>

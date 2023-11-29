@@ -1,32 +1,32 @@
-.rating{
-    display: flex;
-    width: 196px;
-	height: 36px;
-    justify-content: space-between;
-    margin-top: 21px;
+.rating {
+  display: flex;
+  width: 196px;
+  height: 36px;
+  justify-content: space-between;
+  margin-top: 21px;
 
-    @media screen and (max-width: 768px){
-        margin-top: 0;
-        width: 98px;
-	    height: 18px;
-        align-items: center;
-    }
+  @media screen and (max-width: 768px) {
+    margin-top: 0;
+    width: 98px;
+    height: 18px;
+    align-items: center;
+  }
 }
 
-.star{
+.star {
+  height: 25px;
+  color: #e3e3e3;
+
+  @media screen and (max-width: 768px) {
+    height: 14px;
+  }
+
+  &_red {
     height: 25px;
-    color: #e3e3e3;
+    color: #ff6060;
 
-    @media screen and (max-width: 768px){
-        height: 14px;
+    @media screen and (max-width: 768px) {
+      height: 14px;
     }
-
-    &_red{
-        height: 25px;
-        color: #ff6060;
-    
-        @media screen and (max-width: 768px){
-            height: 14px;
-        }
-    }
+  }
 }

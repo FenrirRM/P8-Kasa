@@ -1,35 +1,34 @@
 .Error {
-    display: flex;
-	flex-direction: column;
-    text-align: center;
-    color: #FF6060;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #ff6060;
 
-    h1 {
-        font-size: 288px;
-        margin: 139px 0;
-        line-height: 263px;
-        @media screen and (max-width: 768px){
-            font-size: 96px;  
-            margin: 113px 0; 
-            line-height: 99px;   
-        }
-
+  h1 {
+    font-size: 288px;
+    margin: 139px 0;
+    line-height: 263px;
+    @media screen and (max-width: 768px) {
+      font-size: 96px;
+      margin: 113px 0;
+      line-height: 99px;
     }
+  }
 
-    p {
-        font-size: 36px;
-        @media screen and (max-width: 768px){
-            font-size: 18px;    
-        }
+  p {
+    font-size: 36px;
+    @media screen and (max-width: 768px) {
+      font-size: 18px;
     }
+  }
 
-    a{
-        font-size: 18px;
-        margin: 139px 0;
-        color: #FF6060;
-        @media screen and (max-width: 768px){
-            font-size: 14px;  
-            margin: 113px 0;    
-        }
+  a {
+    font-size: 18px;
+    margin: 139px 0;
+    color: #ff6060;
+    @media screen and (max-width: 768px) {
+      font-size: 14px;
+      margin: 113px 0;
     }
+  }
 }
