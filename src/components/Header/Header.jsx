@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 function Header() {
   return (
     <header className="header">
-      <img src="/assets/LOGO.png" alt="logo de kasa" />
+      <img src="./assets/LOGO.png" alt="logo de kasa" />
       <nav>
         <NavLink to="/" className={(link) => (link.isActive ? "active" : "")}>
           Accueil

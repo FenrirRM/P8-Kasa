@@ -4,7 +4,7 @@ import Collapse from "../../components/Collapse/Collapse";
 function About() {
   return (
     <main>
-      <Banner title="" src="/assets/Banner2.png" alt="Image de montagnes" />
+      <Banner title="" src="./assets/Banner2.png" alt="Image de montagnes" />
       <div className="collapse_about">
         <Collapse
           title="Fiabilité"

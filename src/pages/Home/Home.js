@@ -6,7 +6,7 @@ function Home() {
     <main>
       <Banner
         title="Chez vous, partout et ailleurs"
-        src="/assets/Banner1.png"
+        src="./assets/Banner1.png"
         alt="Image d'un paysage"
       />
       <Cards />
