@@ -17,6 +17,8 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,6 +43,8 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "homepage": "https://fenrirrm.github.io/P8-Kasa",
     "prettier": "^3.1.0"
   }
 }
